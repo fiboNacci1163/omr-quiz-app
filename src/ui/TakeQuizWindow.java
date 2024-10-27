@@ -6,8 +6,6 @@ import model.Quiz;
 import ui.SwingHelper.GBC;
 
 import javax.swing.*;
-import javax.swing.border.LineBorder;
-import javax.swing.event.CaretListener;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.List;
@@ -133,7 +131,7 @@ public class TakeQuizWindow {
         String omrLabel = "Quiz Title: " + quiz.getTitle() + "        Student ID: " + studentIdField.getText();
         omrImage = createOMR(omrLabel, selectedChoices);
 
-                ImageIcon omrIcon = new ImageIcon(omrImage);
+        ImageIcon omrIcon = new ImageIcon(omrImage);
         omrImageLabel.setIcon(omrIcon);
         frame.revalidate();          frame.repaint();         }
 

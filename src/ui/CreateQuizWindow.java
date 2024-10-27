@@ -9,7 +9,6 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
 import static ui.SwingHelper.centerShowWindow;
-import static ui.SwingHelper.scaleFont;
 
 public class CreateQuizWindow {
     private static Quiz quiz;
